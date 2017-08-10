@@ -1,0 +1,75 @@
+.center-to-object{
+  position: fixed;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+span{
+  color: white;
+  font-size: 100px;
+}
+
+h1,h2{
+  font-family: 'Lobster', 'sans-serif';
+  color: white;
+}
+
+.center-to-screen{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.num{
+ color: white;
+ margin-top: -1%;
+ font-size: 70px;
+}
+
+.box-1{
+  background-color: #E74C3C;
+  border-radius: 10%;
+  margin-top: 2%;
+  width: 150px;
+  height: 170px;
+  box-shadow: 0 10px 0 #9b3328;
+}
+
+.box-2{
+  background-color: #16A085;
+  border-radius: 10%;
+  margin-top: 2%;
+  width: 150px;
+  height: 170px;
+  box-shadow: 0 10px 0 #10826b;
+}
+
+.box1-back{
+  background-color: #E74C3C;
+  border-radius: 10%;
+  margin-top: 2%;
+  width: 150px;
+  height: 170px;
+}
+#totalTime, #breaks{
+  color: white;
+}
+.change-sec, .change-mins{
+  animation: change-number 0.9s;
+}
+
+@keyframes change-number{
+  0%{
+    opacity: 1;
+  }
+  
+  50%{
+    opacity: 0;
+  }
+  
+  100%{
+    opacity: 1;
+  }
+}
